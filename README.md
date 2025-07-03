@@ -8,7 +8,6 @@ This project provides a workflow to efficiently convert Autodesk SVF2 property d
 
 https://github.com/user-attachments/assets/ff257323-885c-4ff1-ac73-fc0f2d15899b
 
-
 ## Workflow Overview
 
 <img width="1108" alt="Image" autoplay loop src="https://github.com/user-attachments/assets/457f3021-735e-4603-94e4-94c17798d3cf" />
