@@ -6,19 +6,14 @@ This project provides a workflow to efficiently convert Autodesk SVF2 property d
 
 🚀 **[View the live demo](docs/index.html)** - A browser-based parquet data explorer powered by DuckDB WASM
 
-Screenshot: <INSERT>
+![Image](https://github.com/user-attachments/assets/599c1e35-ff32-4e41-a1aa-9ad076342cf2)
+
+
 
 
 ## Workflow Overview
 
-```mermaid
-flowchart TD
-    A[APS OSS Bucket<br/>SVF2 property files] -->|download.py| B[Local otg/ directory]
-    B -->|convert.py<br/>DuckDB| C[DuckDB Processing]
-    C -->|Output| D[Local pq/ directory<br/>Parquet files]
-    D -->|Upload to S3| E[S3 Bucket<br/>properties.parquet<br/>toplevel.parquet]
-    E -->|DuckDB WASM<br/>httpfs| F[Browser Demo<br/>docs/index.html]
-```
+<img width="1108" alt="Image" src="https://github.com/user-attachments/assets/457f3021-735e-4603-94e4-94c17798d3cf" />
 
 ## Directory Structure
 
