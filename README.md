@@ -4,7 +4,7 @@ This project provides a workflow to efficiently convert Autodesk SVF2 property d
 
 ## Live Demo
 
-🚀 **[View the live demo](docs/index.html)** - A browser-based parquet data explorer powered by DuckDB WASM
+🚀 **[View the live demo](https://wallabyway.github.io/vibe-duckdb-svf2-properties/)** - A browser-based parquet data explorer powered by DuckDB WASM
 
 ![Image](https://github.com/user-attachments/assets/599c1e35-ff32-4e41-a1aa-9ad076342cf2)
 
