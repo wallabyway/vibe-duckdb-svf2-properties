@@ -6,14 +6,12 @@ This project provides a workflow to efficiently convert Autodesk SVF2 property d
 
 🚀 **[View the live demo](https://wallabyway.github.io/vibe-duckdb-svf2-properties/)** - A browser-based parquet data explorer powered by DuckDB WASM
 
-![Image](https://github.com/user-attachments/assets/599c1e35-ff32-4e41-a1aa-9ad076342cf2)
-
-
+https://github.com/user-attachments/assets/ff257323-885c-4ff1-ac73-fc0f2d15899b
 
 
 ## Workflow Overview
 
-<img width="1108" alt="Image" src="https://github.com/user-attachments/assets/457f3021-735e-4603-94e4-94c17798d3cf" />
+<img width="1108" alt="Image" autoplay loop src="https://github.com/user-attachments/assets/457f3021-735e-4603-94e4-94c17798d3cf" />
 
 ## Directory Structure
 
@@ -79,6 +77,8 @@ For the browser demo, upload these files to a public S3 bucket with CORS enabled
 - `toplevel.parquet`
 
 ### 4. Browser Demo
+
+![Image](https://github.com/user-attachments/assets/599c1e35-ff32-4e41-a1aa-9ad076342cf2)
 
 Open `docs/index.html` in your browser for a live demo featuring:
 
