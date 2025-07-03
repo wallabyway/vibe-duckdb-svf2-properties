@@ -1,0 +1,52 @@
+@token = {{get2LOToken.response.body.access_token}} 
+
+
+### Get 2LO AccessToken
+# @name get2LOToken
+GET https://viewer.aps-autodesk.com/api/token
+Accept: */*
+
+
+### Get SVF2 "vals" file
+# @name getValsFile
+GET https://cdn.derivative.autodesk.com/modeldata/file/urn%3Aadsk.fluent%3Afs.file%3Aautodesk-360-translation-storage-prod%2FdXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk%2Foutput%2Fotg_files%2F0%2Foutput%2F0%2Fattrs.json?acmsession=dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk&domain=https%3A%2F%2Fviewer.aps-autodesk.com
+Authorization: Bearer {{token}}
+Origin: https://viewer.aps-autodesk.com
+
+
+### Get SVF2 otg_model.json file (using token variable)
+GET https://cdn.derivative.autodesk.com/modeldata/file/urn%3Aadsk.fluent%3Afs.file%3Aautodesk-360-translation-storage-prod%2FdXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk%2Foutput%2Fotg_files%2F0%2Foutput%2F0%2Fotg_model.json?acmsession=dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk
+Accept: */*
+Authorization: Bearer {{token}}
+
+
+### Get SVF2 ids.json file (using token variable)
+GET https://cdn.derivative.autodesk.com/modeldata/file/urn%3Aadsk.fluent%3Afs.file%3Aautodesk-360-translation-storage-prod%2FdXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk%2Foutput%2Fotg_files%2F0%2Foutput%2F0%2Fids.json?acmsession=dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk&domain=https%3A%2F%2Fviewer.aps-autodesk.com
+Accept: */*
+Authorization: Bearer {{token}}
+
+
+### Get SVF2 dbid.idx file (using token variable)
+GET https://cdn.derivative.autodesk.com/modeldata/file/urn%3Aadsk.fluent%3Afs.file%3Aautodesk-360-translation-storage-prod%2FdXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk%2Foutput%2Fotg_files%2F0%2Foutput%2F0%2Fdbid.idx?acmsession=dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk&domain=https%3A%2F%2Fviewer.aps-autodesk.com
+Accept: */*
+Authorization: Bearer {{token}}
+
+### Get SVF2 avs.pack file (using token variable)
+GET https://cdn.derivative.autodesk.com/modeldata/file/urn%3Aadsk.fluent%3Afs.file%3Aautodesk-360-translation-storage-prod%2FdXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk%2Foutput%2Fotg_files%2F0%2Foutput%2F0%2Favs.pack?acmsession=dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk&domain=https%3A%2F%2Fviewer.aps-autodesk.com
+Accept: */*
+Authorization: Bearer {{token}}
+
+### Get SVF2 avs.idx file (using token variable)
+GET https://cdn.derivative.autodesk.com/modeldata/file/urn%3Aadsk.fluent%3Afs.file%3Aautodesk-360-translation-storage-prod%2FdXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk%2Foutput%2Fotg_files%2F0%2Foutput%2F0%2Favs.idx?acmsession=dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk&domain=https%3A%2F%2Fviewer.aps-autodesk.com
+Accept: */*
+Authorization: Bearer {{token}}
+
+### Get SVF2 attrs.json file (using token variable)
+GET https://cdn.derivative.autodesk.com/modeldata/file/urn%3Aadsk.fluent%3Afs.file%3Aautodesk-360-translation-storage-prod%2FdXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk%2Foutput%2Fotg_files%2F0%2Foutput%2F0%2Fattrs.json?acmsession=dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6YXBzLWNsaWVudGlkLWJ1Y2tldDIvaWNlLXN0YWRpdW0ubndk&domain=https%3A%2F%2Fviewer.aps-autodesk.com
+Accept: */*
+Authorization: Bearer {{token}}
+
+
+
+
+
